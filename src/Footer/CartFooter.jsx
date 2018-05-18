@@ -1,12 +1,12 @@
 import React from "react";
 import "./CartFooter.css";
 
-const CartFooter = () => {
+const CartFooter = ({copyright, year}) => {
   
   return (
     <footer className="footer">
       <div className="container">
-        <a href="#">&copy; 2018</a>
+        <a href="#">{copyright} {year}</a>
       </div>
     </footer>
   );
